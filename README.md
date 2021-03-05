@@ -78,7 +78,7 @@ public class Student {
     }
 ...
 ```
-Beim starten von App erzeugt Hibernate die Tabelle:\
+Beim starten von App erzeugt Hibernate die Tabelle:
 ~~~
 ...
 Hibernate: create sequence sutdent_sequence start 1 increment 1
