@@ -52,4 +52,30 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 spring.jpa.properties.hibernate.format_sql=true
 ~~~
 
+## JPA
+In dem Annotaions an Model Student angehängt wurden wurde eine Tabelle initiiert:
+````java
+´@Entity
+@Table
+public class Student {
+    @Id
+    @SequenceGenerator(
+            name = "student_sequence",
+            sequenceName = "sutdent_sequence",
+            allocationSize = 1
+            )
+    @GeneratedValue(
+            strategy = GenerationType.SEQUENCE,
+            generator = "student_sequence"
+            )
+    private Long id;
+    private String name;
+    private String email;
+    private LocalDate dob;
+    private Integer age;
+
+    public Student() {
+    }
+...
+´´´
 
