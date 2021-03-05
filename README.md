@@ -51,8 +51,7 @@ spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 spring.jpa.properties.hibernate.format_sql=true
 ~~~
-\
-\
+<br><br><br>
 ## JPA
 In dem Annotaions an Model Student angehängt wurden wurde eine Tabelle initiiert:
 ```java
