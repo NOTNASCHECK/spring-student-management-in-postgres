@@ -41,7 +41,7 @@
 14) Uncomment dependency\
 ![grafik](https://user-images.githubusercontent.com/75083505/110102855-8f2b7d80-7da5-11eb-8acf-26b052070d7f.png)
 
-15) application.properteies:\
+15) application.properteies:
 ~~~
 spring.datasource.url=jdbc:postgresql://localhost:5432/studentdb
 spring.datasource.username=postgres
