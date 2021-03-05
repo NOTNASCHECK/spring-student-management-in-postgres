@@ -54,7 +54,7 @@ spring.jpa.properties.hibernate.format_sql=true
 
 ## JPA
 In dem Annotaions an Model Student angehängt wurden wurde eine Tabelle initiiert:
-````java
+```java
 ´@Entity
 @Table
 public class Student {
@@ -77,5 +77,24 @@ public class Student {
     public Student() {
     }
 ...
-´´´
+```
+Beim starten von App erzeugt Hibernate die Tabelle:\
+~~~
+...
+Hibernate: create sequence sutdent_sequence start 1 increment 1
+Hibernate: 
+    
+    create table student (
+       id int8 not null,
+        age int4,
+        dob date,
+        email varchar(255),
+        name varchar(255),
+        primary key (id)
+    )
+...
+~~~
+In Postgres kann man dies einsehen\
+![grafik](https://user-images.githubusercontent.com/75083505/110109733-21378400-7dae-11eb-9fca-d93dc47691ad.png)
+
 
