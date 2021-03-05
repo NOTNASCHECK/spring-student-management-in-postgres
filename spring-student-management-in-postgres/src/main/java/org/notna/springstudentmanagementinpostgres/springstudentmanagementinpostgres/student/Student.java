@@ -3,7 +3,6 @@ package org.notna.springstudentmanagementinpostgres.springstudentmanagementinpos
 import java.time.LocalDate;
 
 public class Student {
-
     private Long id;
     private String name;
     private String email;
