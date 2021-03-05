@@ -1,4 +1,4 @@
-# spring-student-management-in-postgres
+# spring-student-management-with-postgres
 
 ## Postgres in Docker und erstellen von Tabelle und verbindnen mit Spring Boot
 
