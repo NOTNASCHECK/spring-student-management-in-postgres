@@ -1,6 +1,6 @@
 # spring-student-management-with-postgres
 
-## Postgres in Docker und erstellen von Tabelle und verbindnen mit Spring Boot
+## Docker image erstellen und Tabelle in Postgresql erstellen und application.properties erstellen 
 
 1) Create Image\
 ![grafik](https://user-images.githubusercontent.com/75083505/110099559-b97b3c00-7da1-11eb-8a30-5b141de9b454.png)
