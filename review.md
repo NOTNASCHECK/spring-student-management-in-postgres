@@ -1,7 +1,7 @@
 
 Was macht die Software?\
 Über HTTP werden Studenten angelegt, geändert gelöscht. Einträge können in einer provisorischen Database (List-Api) oder in einer postgresql Database gespeichert werden. Es gibt kein Frontend.\
-![grafik](https://user-images.githubusercontent.com/75083505/110250072-d0748680-7f79-11eb-9dc3-ae92585f3889.png "Untertitel von Bild")
+![grafik][Bild 1](https://user-images.githubusercontent.com/75083505/110250072-d0748680-7f79-11eb-9dc3-ae92585f3889.png  "Untertitel von Bild")
 
 UML Student\
 ![grafik](https://user-images.githubusercontent.com/75083505/110248480-b3d45080-7f71-11eb-8b1d-787c373200ae.png)
