@@ -6,7 +6,7 @@ Was macht die Software?\
 UML Student\
 ![grafik](https://user-images.githubusercontent.com/75083505/110248480-b3d45080-7f71-11eb-8b1d-787c373200ae.png)
 
-Use-Cases:\
+Use-Cases:
 1) Studenten anzeigen
 2) Studenten hinzufügen
 3) Studenten entfernen
