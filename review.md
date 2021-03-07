@@ -6,3 +6,16 @@ Es gibt kein Frontend.
 UML Student\
 ![grafik](https://user-images.githubusercontent.com/75083505/110248480-b3d45080-7f71-11eb-8b1d-787c373200ae.png)
 
+Use-Cases:\
+1) Studenten anzeigen
+2) Studenten hinzufügen
+3) Studenten entfernen
+4) Studentenname ändern
+
+Vorbereitung:
+1) Docker Image starten mit postrase Database und Table
+![grafik](https://user-images.githubusercontent.com/75083505/110249874-ab334880-7f78-11eb-9c65-d69484c428f4.png)
+
+3) Anwendung starten: eclipse oder jar
+
+Anwendung nutzen:
