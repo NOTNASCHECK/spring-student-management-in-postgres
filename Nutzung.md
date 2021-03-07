@@ -19,7 +19,7 @@ Vorbereitung:
 ![grafik](https://user-images.githubusercontent.com/75083505/110249874-ab334880-7f78-11eb-9c65-d69484c428f4.png)
 3) Anwendung starten: eclipse oder jar
 
-Anwendung nutzen:\
+Anwendung nutzen:
 1) Studenten anzeigen:\
 ![grafik](https://user-images.githubusercontent.com/75083505/110249896-d1f17f00-7f78-11eb-97f1-acc2196e4280.png)
 
