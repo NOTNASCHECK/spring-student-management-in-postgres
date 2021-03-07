@@ -10,7 +10,9 @@ Use-Cases:\
 1) Studenten anzeigen
 2) Studenten hinzufügen
 3) Studenten entfernen
-4) Studentenname ändern
+4) Studenten Name ändern
+5) Studenten Email ändern
+6) Studenten Name & Email ändern
 
 Vorbereitung:
 1) Docker Image starten mit postrase Database und Table:\
@@ -21,3 +23,17 @@ Anwendung nutzen:\
 1) Studenten anzeigen:\
 ![grafik](https://user-images.githubusercontent.com/75083505/110249896-d1f17f00-7f78-11eb-97f1-acc2196e4280.png)
 
+2) Studenten hinzufügen:\
+![grafik](https://user-images.githubusercontent.com/75083505/110249941-19780b00-7f79-11eb-8f67-a0b8b3329ebe.png)
+
+3) Studenten entfernen:\
+![grafik](https://user-images.githubusercontent.com/75083505/110249976-34e31600-7f79-11eb-86a3-91f7b765a825.png)
+
+4) Studenten Name ändern:\
+![grafik](https://user-images.githubusercontent.com/75083505/110249996-5b08b600-7f79-11eb-8f3d-96c463d91c6e.png)
+
+5) Studenten Email ändern:\
+![grafik](https://user-images.githubusercontent.com/75083505/110250048-a6bb5f80-7f79-11eb-8458-38ce94e7c000.png)
+
+6) Studenten Name & Email ändern:\
+![grafik](https://user-images.githubusercontent.com/75083505/110250021-7ecbfc00-7f79-11eb-8b25-8260b5439f84.png)
