@@ -128,6 +128,6 @@ email darf nicht null sind\
 email muss länger als 0 Zeichen sein\
 email muss anderen Wert haben als vorhanden\
 Und anschließend wird noch geprüft ob die vorhandene Email Adresse schon bei jemanden eingetragen ist,\
-wenn es so ist, dann wird eine Exception geworfen.\
+wenn es so ist, dann wird eine Exception geworfen.
 
 
