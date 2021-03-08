@@ -38,7 +38,7 @@ Wenn Student nicht vorhanden ist wird dieser hinzugefügt.\
 Es wird in Optional ein Student Objekt abgelegt, dass auch nicht vorhanden sein kann.
 
 ### Studenten entfernen
-`````java
+```java
     public void deleteStudent(Long studentId) {
         boolean exists = studentRepository.existsById(studentId);
         if(!exists){
@@ -46,7 +46,7 @@ Es wird in Optional ein Student Objekt abgelegt, dass auch nicht vorhanden sein 
         }
         this.studentRepository.deleteById(studentId);
     }
-````
+```
 Der deleteStudent Methode wird Id mitgegeben.\
 Die Id sagt, welcher Student gelöscht werden soll.\
 Als erstes wird geprüft, ob Student vorhanden ist. 
@@ -55,7 +55,7 @@ Wenn Student nicht vorhanden ist, wird eine Exception geworfen.\
 Wenn der Student vorhanden ist wird Student gelöscht.
 
 ### Studenten Name | E-Meil | Name&Email ändern
-`````java
+```java
  @Transactional
     public void updateStudent(Long studentId, String name, String email) {
         Student student = this.studentRepository
