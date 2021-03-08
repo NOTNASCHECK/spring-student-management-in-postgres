@@ -17,7 +17,7 @@ import java.time.Period;
 ```
 <br/><br/>
 
-## Class StudentService
+## Class StudentService<br/>
 ### Studenten hinzufügen
 ````java
     ...
