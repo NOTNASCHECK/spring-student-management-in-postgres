@@ -29,10 +29,10 @@ import java.time.Period;
     }
     ...
 ````
-Methode addNewStudent(Student student) hat einen Parameter.
-Parameter ist der zu hinzufügende Student.
-Es wird geprüft, ob Student vorhanden ist, wenn es so ist wird eine Exception geworfen.
-Wenn Student nicht vorhanden ist wird dieser hinzugefügt.
-Überprüfung wird mittles Optional gemacht.
-
+Methode addNewStudent(Student student) hat einen Parameter.\
+Parameter ist der zu hinzufügende Student.\
+Es wird geprüft, ob Student vorhanden ist, wenn es so ist wird eine Exception geworfen.\
+Wenn Student nicht vorhanden ist wird dieser hinzugefügt.\
+Überprüfung wird mittles Optional gemacht.\
+\
 Es wird in Optional ein Student Objekt abgelegt, dass auch nicht vorhanden sein kann.
