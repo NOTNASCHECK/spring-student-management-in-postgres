@@ -15,3 +15,17 @@ import java.time.Period;
         return Period.between(this.dob, LocalDate.now()).getYears();
     }
 ```
+
+## Class StudentService
+### Studenten hinzufügen
+```java
+    ...
+    public void addNewStudent(Student student) {
+        Optional<Student> studentByEmail = this.studentRepository.findStudentByEmail(student.getEmail());
+        if(studentByEmail.isPresent()){
+            throw new IllegalStateException("email taken");
+        }
+        this.studentRepository.save(student);
+    }
+    ...
+```
