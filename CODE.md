@@ -36,3 +36,12 @@ Wenn Student nicht vorhanden ist wird dieser hinzugefügt.\
 Überprüfung wird mittles Optional gemacht.\
 \
 Es wird in Optional ein Student Objekt abgelegt, dass auch nicht vorhanden sein kann.
+
+### Studenten entfernen
+    public void deleteStudent(Long studentId) {
+        boolean exists = studentRepository.existsById(studentId);
+        if(!exists){
+            throw new IllegalStateException("Student with id "+studentId+" does not Exitsts");
+        }
+        this.studentRepository.deleteById(studentId);
+    }
