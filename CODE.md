@@ -18,7 +18,7 @@ import java.time.Period;
 
 ## Class StudentService
 ### Studenten hinzufügen
-'''java
+````java
     ...
     public void addNewStudent(Student student) {
         Optional<Student> studentByEmail = this.studentRepository.findStudentByEmail(student.getEmail());
@@ -28,4 +28,4 @@ import java.time.Period;
         this.studentRepository.save(student);
     }
     ...
-'''
+````
