@@ -1,7 +1,7 @@
 # Interessante Code Lösungen
 <br/><br/>
 
-## Class Student
+## Class Student<br/>
 ### Alter berrechnen
 ```java
 
@@ -37,7 +37,7 @@ Wenn Student nicht vorhanden ist wird dieser hinzugefügt.\
 Überprüfung wird mittles Optional gemacht.\
 \
 Es wird in Optional ein Student Objekt abgelegt, dass auch nicht vorhanden sein kann.
-
+<br/>
 ### Studenten entfernen
 ```java
     ...
