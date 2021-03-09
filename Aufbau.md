@@ -1,5 +1,5 @@
 Aufgabe:
-Web Anwendung soll Anfragen GET, POST, DELETE, PUT verarbeite.
+Web Anwendung soll Anfragen GET, POST, DELETE, PUT verarbeiten.
 
 Web Anwendung funktioniert immer gleich:
 1) Frond-end aktiviert Backend
